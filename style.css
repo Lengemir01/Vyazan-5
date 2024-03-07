@@ -1,0 +1,262 @@
+@font-face {
+    font-family: NTSomic;
+    src: url('/Fonts/NTSomic-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NTSomic;
+    src: url('/Fonts/Webfonts/NTSomic-Medium.woff2') format('woff2');
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+  body{
+    font-family: 'NTSomic';
+  }
+  
+  .page-body{
+      background-color: rgb(255, 255, 255);
+      font-family: "NTSomic", "Regular";
+      margin: 0;
+  }
+  
+  .frame{
+    width: 100%;
+    max-width: 1020px;
+    margin: auto;
+  }
+
+  header{
+    display: flex;
+    max-width: auto;
+  }
+  
+  nav{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 16%;
+    margin-right: auto;
+    letter-spacing: .4pt;
+    font-size: 13pt;
+    font-weight: normal;
+  }
+
+  
+.store-icons{
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+    margin-top: 16px;   
+}
+
+.cover{
+    max-width: 1020;
+}
+
+.cover-logo{
+    position: relative;
+    margin-top: 320px;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover-description{
+    width: 427px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 12pt;
+
+}
+
+
+
+main{
+    background-image: url(/Img/bakground.jpg);
+    padding: 28px 50px 0px;
+    background-size: 100%;
+    height: 650px;
+    z-index: 2;
+}
+
+p{
+    line-height: 16pt;
+}
+
+img{
+    display: block;
+    padding: 0;
+    margin: 0;
+    
+} 
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'NTSomic'}
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: "Regular";
+    }
+
+.content-site{
+    display: flex;
+    padding: 50px 50px 30px;
+    gap: 96px;
+
+}
+
+.heading{
+    font-size: 25pt;
+    text-indent: .87ch;
+    margin-left: -1ch;
+    max-width: 288px;
+    font-weight: bold;
+    line-height: 28pt;
+    
+    
+}
+
+.content-regular{
+    line-height: 18pt;
+    font-size: 12pt;
+    font-style: bold;
+}
+
+.content-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px;
+    *gap: 26px;
+    margin-bottom: 0px;
+}
+
+.price {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 15px;
+    margin-bottom: 0;
+    }
+
+.previous-prise{
+    color: rgb(255, 61, 0);
+}
+
+.item-description{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-bottom: 0;
+} 
+
+del{
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 61, 0, .25);
+    text-decoration-thickness: 0.1px;
+}
+
+.collection-link{
+    color: #1d3fff;
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 10px;
+    margin-top: auto;
+    align-items: center;
+    gap: 8px;
+    line-height: 0.5rem;
+}
+
+
+.link-item{
+    color: black;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+}
+
+
+footer{
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 50px 50px 50px;
+    background-color: rgb(221, 221, 221, 0.25);
+    
+}
+
+footer ul li+li {
+    margin-top: 17px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-50{
+    width: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.social-link{
+    align-items: center;
+    gap: 20px;
+}
+
+.mr-1{
+    margin-right: 30px;
+}
+
+
+.contact-mail{
+    font-size: 22pt;
+    display: block;
+    text-align: right;
+    margin-bottom: 24px;
+    line-height: 0.5rem;
+    color: black;
+}
+
+.social-contact{
+    text-align: right;
+    color: rgb(158, 158, 158);
+}
+
+
+.flex{
+    display: flex;
+
+}
+
+.w-25-link{
+    color: black;
+}
+
+
+.collection-link:hover{
+    text-decoration: none;
+    color: rgb(255, 61, 0); 
+
+}
+
+.w-25-link:hover{
+    text-decoration: none;
+    color: rgb(255, 61, 0); 
+
+}
