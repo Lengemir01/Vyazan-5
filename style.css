@@ -61,11 +61,11 @@
 }
 
 .main-icons{
-    gap: 30px;
+    gap: 27px;
     margin-top: auto;
     margin-bottom: auto;
   }
-
+ы
 
 .cover-logo{
     position: relative;
@@ -91,7 +91,7 @@
 
 .main-wrapper{
     width: 1020px;
-    padding: 40px 56px 0px;
+    padding: 37px 56px 0px;
     margin: auto;
     height: 650px;
     background-image: url(Img/bakground.jpg);
