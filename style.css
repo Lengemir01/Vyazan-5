@@ -1,19 +1,27 @@
 @font-face {
     font-family: NTSomic;
-    src: url('Fonts/NTSomic-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+    src: url(Fonts/Webfonts/NTSomic-Regular.woff2) format(woff2);
+    font-weight: 400;
+    font-style: Regular;
 }
 
 @font-face {
     font-family: NTSomic;
-    src: url('Fonts/Webfonts/NTSomic-Medium.woff2') format('woff2');
-    font-weight: bold;
+    src: url(Fonts/Webfonts/NTSomic-Semibold.woff2) format(woff2);
+    font-weight: 600;
+    font-style: Semibold;
 }
 
+@font-face {
+    font-family: Kudry;
+    src: url(Fonts/Webfonts/kudry_weird-headline.woff2) format(woff2);
+    font-weight: 400;
+    font-style: Regular;
+}
 
   body{
     font-family: 'NTSomic';
+
   }
   
   .page-body{
