@@ -21,7 +21,7 @@
   
 .page-body{
       background-color: rgb(255, 255, 255);
-      font-family: "NTSomic", "Kudry";
+      font-family: "NTSomic";
   }
   
 .frame{
@@ -43,7 +43,6 @@
     box-sizing: border-box;
     font-family: Kudry;
     font-size: 48px;
-    letter-spacing: 0px;
 }
 
 .main-menu{
@@ -62,7 +61,7 @@
     gap: 24px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 28.7px;
+    margin-left: 25px;
   }
 
 
@@ -72,21 +71,22 @@
   
 .title-logo{
     margin-top: 314px;
-    height: 179px;
+    max-height: 180px;
+    height: 100%;
     font-family: Kudry;
     font-size: 196px;
-    letter-spacing: -5px;
+    letter-spacing: -6px;
     color: white;
 }
 
 .title-description{
     width: 450px;
-    margin-top: 8px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: white;
-    font-size: 12pt;
+    font-size: 16px;
 
 }
 
@@ -115,8 +115,8 @@ img{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: 1;
-    font-family: 'NTSomic'}
+    font-weight: 100;
+    line-height: 1;}
 
     a{
         text-decoration: none;
@@ -164,7 +164,7 @@ img{
     gap: 11px;
     }
 
-.previous-prise{
+.previous-price{
     color: rgb(255, 61, 0);
 }
 
@@ -236,14 +236,14 @@ ul{
 .contact-mail{
     font-size: 22pt;
     letter-spacing: -.2px;
-    display: block;
     text-align: right;
-    margin-bottom: 26px;
     line-height: 0.5rem;
     color: black;
+    border: 0.5px solid green;
 }
 
 .social-contact{
+    margin-top: 14px;
     text-align: right;
     font-size: 16px;
     color: rgb(158, 158, 158);
