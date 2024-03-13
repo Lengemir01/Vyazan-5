@@ -19,12 +19,12 @@
     font-style: Regular;
 }
   
-  .page-body{
+.page-body{
       background-color: rgb(255, 255, 255);
       font-family: "NTSomic", "Kudry";
   }
   
-  .frame{
+.frame{
     width: 100%;
     max-width: 1020px;
     margin: auto;
@@ -39,7 +39,6 @@
 }
 
 .site-logo{
-    align-self: start;
     margin-left: -5px;
     box-sizing: border-box;
     font-family: Kudry;
@@ -66,24 +65,18 @@
     margin-left: 28.7px;
   }
 
-.site-title{
-    border: 0.5px solid green;
-}
-
 
 .title-logo-container{
-    border: 0.5px solid rgb(236, 0, 177);
     justify-content: center;
 }
   
 .title-logo{
-    margin-top: 311px;
+    margin-top: 314px;
     height: 179px;
     font-family: Kudry;
     font-size: 196px;
     letter-spacing: -5px;
     color: white;
-    border: 0.5px solid rgb(236, 0, 177);
 }
 
 .title-description{
@@ -108,7 +101,7 @@
 }
 
 p{
-    line-height: 16pt;
+    line-height: 22px;
 }
 
 img{
@@ -128,53 +121,47 @@ img{
     a{
         text-decoration: none;
         color: white;
-        font-weight: "Regular";
     }
 
 .collection-frame{
-    padding: 50px 50px 30px;
+    padding: 52px 50px 30px;
+    margin-bottom: 2px;
 
 }
 
-.collection{
-    border: 0.5px solid blue;
-
+.collection-link{
+    color: #1d3fff;
+    margin-left: 5px;
 }
-
 .collection-name{
     font-size: 34px;
-    text-indent: .87ch;
-    margin-left: -.9ch;
+    text-indent: .85ch;
+    margin-left: -.8ch;
+    margin-right: 46px;
     line-height: 37px;
     font-weight: 600;
-    margin-right: 91px;
-    padding: 0;
-    border: 0.5px solid rgb(0, 255, 64);
-    
-    
+    max-width: 288px;
+    width: 100%;
+    padding: 0;    
 }
 
 .collection-titel{
     padding-top: 2px;
-    line-height: 22px;
     font-size: 16px;   
     margin-right: 118px;
-    border: 0.5px solid rgb(0, 255, 64);
 }
 
 .content-item{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 50px 0px;
-    *gap: 26px;
-    margin-bottom: 0px;
+    padding: 0px 53px 0px;
+    gap: 23px;
+}
+
+.item-photo{
+    margin-bottom: 12px;
 }
 
 .price {
-    display: flex;
-    flex-wrap: nowrap; 
-    gap: 15px;
-    margin-bottom: 0;
+    gap: 11px;
     }
 
 .previous-prise{
@@ -187,7 +174,7 @@ img{
     margin-bottom: 0;
 } 
 
-del{
+s{
     text-decoration: line-through;
     text-decoration-color: rgb(255, 61, 0, .25);
     text-decoration-thickness: 0.1px;
@@ -195,7 +182,6 @@ del{
 
 .collection-link{
     color: #1d3fff;
-    display: flex;
     flex-wrap: nowrap; 
     gap: 10px;
     margin-top: auto;
@@ -218,12 +204,12 @@ section{
 footer{
     flex-wrap: wrap;
     margin-top: 100px;
-    padding: 50px 50px 50px;
+    padding: 49px 54px 50px;
     background-color: rgb(221, 221, 221, 0.25);
     
 }
 
-footer ul li+li {
+.footer-nav ul li+li {
     margin-top: 17px;
 }
 
@@ -246,22 +232,20 @@ ul{
     gap: 20px;
 }
 
-.mr-1{
-    margin-right: 30px;
-}
-
 
 .contact-mail{
     font-size: 22pt;
+    letter-spacing: -.2px;
     display: block;
     text-align: right;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
     line-height: 0.5rem;
     color: black;
 }
 
 .social-contact{
     text-align: right;
+    font-size: 16px;
     color: rgb(158, 158, 158);
 }
 
