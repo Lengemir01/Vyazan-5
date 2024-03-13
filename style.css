@@ -79,9 +79,37 @@
     color: white;
 }
 
+<<<<<<< Updated upstream
 .title-description{
     width: 450px;
     margin-top: 8px;
+=======
+*.header-container{
+    max-width: 1020px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0.5px solid blue;
+
+}
+
+
+
+.store-icons{
+    gap: 24px;
+    margin-left: auto;
+    margin-top: 16px;   
+}
+
+.cover{
+    max-width: 1020;
+}
+
+.cover-logo{
+    position: relative;
+    margin-top: 320px;
+    width: max-content;
+    height: max-content;
+>>>>>>> Stashed changes
     margin-left: auto;
     margin-right: auto;
     text-align: center;
