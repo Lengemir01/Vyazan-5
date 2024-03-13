@@ -32,59 +32,65 @@
   
 .main-header{
     color: white;
-    border: 0.5px solid blue;
 }
 
 .main-container{
-    *border: 0.5px solid green;
     width: 1020px;
 }
 
 .site-logo{
     align-self: start;
-    margin-left: -2px;
+    margin-left: -5px;
     box-sizing: border-box;
-    *border: 0.5px solid blue;
     font-family: Kudry;
-    font-size: 47px;
+    font-size: 48px;
+    letter-spacing: 0px;
 }
 
 .main-menu{
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 17px;
     margin-bottom: auto;
-    gap: 50px;
+    gap: 33px;
     font-family: NTSomic;
     font-weight: 400;
-    font-size: 18,72px;
-    letter-spacing: .2px;
+    font-size: 19px;
 
 }
 
 .main-icons{
-    gap: 27px;
+    gap: 24px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 30px;
+    margin-left: 28.7px;
   }
 
-
-.cover-logo{
-    position: relative;
-    margin-top: 320px;
-    width: max-content;
-    height: max-content;
-    margin-left: auto;
-    margin-right: auto;
+.site-title{
+    border: 0.5px solid green;
 }
 
-.cover-description{
-    width: 427px;
+
+.title-logo-container{
+    border: 0.5px solid rgb(236, 0, 177);
+    justify-content: center;
+}
+  
+.title-logo{
+    margin-top: 311px;
+    height: 179px;
+    font-family: Kudry;
+    font-size: 196px;
+    letter-spacing: -5px;
+    color: white;
+    border: 0.5px solid rgb(236, 0, 177);
+}
+
+.title-description{
+    width: 450px;
+    margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
     text-align: center;
     color: white;
     font-size: 12pt;
@@ -95,7 +101,7 @@
 
 .main-wrapper{
     width: 1020px;
-    padding: 35px 56px 0px;
+    padding: 30.8px 56px 0px;
     margin: auto;
     height: 650px;
     background-image: url(Img/bakground.jpg);
@@ -125,28 +131,35 @@ img{
         font-weight: "Regular";
     }
 
-.content-site{
-    display: flex;
+.collection-frame{
     padding: 50px 50px 30px;
-    gap: 96px;
 
 }
 
-.heading{
-    font-size: 25pt;
+.collection{
+    border: 0.5px solid blue;
+
+}
+
+.collection-name{
+    font-size: 34px;
     text-indent: .87ch;
-    margin-left: -1ch;
-    max-width: 288px;
-    font-weight: bold;
-    line-height: 28pt;
+    margin-left: -.9ch;
+    line-height: 37px;
+    font-weight: 600;
+    margin-right: 91px;
+    padding: 0;
+    border: 0.5px solid rgb(0, 255, 64);
     
     
 }
 
-.content-regular{
-    line-height: 18pt;
-    font-size: 12pt;
-    font-style: bold;
+.collection-titel{
+    padding-top: 2px;
+    line-height: 22px;
+    font-size: 16px;   
+    margin-right: 118px;
+    border: 0.5px solid rgb(0, 255, 64);
 }
 
 .content-item{
